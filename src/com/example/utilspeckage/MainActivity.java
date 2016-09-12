@@ -1,7 +1,10 @@
 package com.example.utilspeckage;
 
+import com.example.utilspeckage.utils.web.gfdfd;
+
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 
 //123
@@ -11,13 +14,11 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_main, menu);
-		return true;
+		
+		Log.d("tanyinqing","tan");
+		Log.d("tanyiing","tan");
+		Log.d("tanying","tan");
+		Log.d("tanyinqing","2条信息");
 	}
 
 }
