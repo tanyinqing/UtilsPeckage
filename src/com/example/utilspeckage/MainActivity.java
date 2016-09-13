@@ -22,21 +22,6 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		OrderWeb mOrderWeb=new OrderWeb(this);
-		mOrderWeb.goToPay(new DataListener<List<District>>(){
-			@Override
-			public void onSuccess(List<District> data) {
-				for(int i=1;i<data.size();i++){
-					Log.d("tanyinqing", data.toString());
-					Log.d("tanyinqing", "*************************************");
-					Log.d("tanyinqing", "*************************************");
-					Log.d("tanyinqing", "*************************************");
-				}
-				
-			}
-		});
-		
 	}	
 	
 
